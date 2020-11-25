@@ -25,14 +25,38 @@
 
 <!--===========  here start the slides ============-->
 
+
+<section data-background-color="silver">
+  <img src="./media/twitter-michal.png" style="width: 70%">
+  <img src="./media/twitter-radim.png" style="width: 70%" class="fragment">
+  <!--
+  From the previous talk I understood that it'S handy to have some Twitter posts in my talk.
+  So I put two.
+  Well, the answer to Radim's question is: No, there is no public link.
+  And maybe this is why I am here now.
+  -->
+</section>
+
+
 <section style="text-align: left">
-    <h1 style="margin-top: 1em; color:lightskyblue">Towards open science</h1>
-    <h3 style="margin-top: 2em;">Michal H. Kolář</h3>
-    <p>UCT Prague</a>
+  <h1 style="margin-top: 1em; color:lightskyblue">Towards open science</h1>
+  <h3 style="margin-top: 2em;">Michal H. Kolář</h3>
+  <p>UCT Prague</a>
 
-    <p style="margin-top:4em">November 25, 2020</p>
-    <p>for Masaryk University, Brno, CZE
+  <p style="margin-top:4em">November 25, 2020</p>
+  <p>for Masaryk University, Brno, CZE
+  <!--
+    My name is Michal Kolář, I work at the University of Chemistry and technology in Prague
+    and today I will present a few thoughs about Open Science.
+    As a teacher and researcher, my view of the topic from the user's side.
+    It means, I'm not administrator, I'm not a science manager.
+    I'm not someone who implemets the principles in the top-down manner.
 
+    Now in the talk,
+    I will build up some motivation,
+    and then present three open science projects
+    in order to generalize some their principles.
+  -->
 </section>
 
 
@@ -57,6 +81,24 @@
     the <a href="https://nounproject.com" target="_blank">Noun Project</a>
   </p>
 
+  <!--
+  Let me start with the acknowledgement.
+
+  My current view of science was formed by several things.
+  First, I attended a summer school in Běstvina for high-school students.
+  I did my PhD at IOCB Prague, which is a sort-fo prominent institute of the Czech academy of sciences.
+  I worked as a posdoc at MPI BCP, Göttginen, Germany, where open science, open data, preprints were a strong topic.
+
+  Because I am a computational chemist or biophysicst, also this talk will be biased towards biomolecules and computers.
+
+  This presentation is written in HTML using open-source javascript library Revel.js.
+  The source coude is on GitHub
+  and the slides you can view already now on this link.
+  I posted it in the Chat as well.
+
+  I also used a few icons and drawing uder public licence,
+  so I list the authers here as well.
+  -->
 </section>
 
 
@@ -239,13 +281,18 @@
   <h1 style="margin-top: 4em">Citizen Science</h1>
   <!--
   There are other models to do science.
-  The discoveries are done by a coordinated efforts of many non-experts with sutable tools.
-  Funding is
+  The discoveries are done by a coordinated efforts
+  of many non-experts with sutable tools and are not paid.
+
+  I'd like to talk about three projects.
   -->
 </section>
 
 
 <section data-background-video="./media/pipes.mp4">
+  <!--
+    In 90s, there was an operating system Windows 95 and 98 which brought several iconic screensaver.
+    These are programs which save the screen when the computer is idle.
 </section>
 
 
@@ -280,16 +327,21 @@
     <img src="./media/protein.png" style="width: 80%">
   </div>
   <div class="right2">
-    <h2>Proteins</h2>
 
-    <div class="fragment">
+    <h4>Folding@home (Stanford, US)</h4>
+    <h4>Rosetta@home (Uni Washington, US)</h4>
+
+    <div class="fragment" style="margin-top:2em">
+      <h2>Proteins</h2>
       <p>
         "How come that so simple polymer ends up in one highly stable 3D conformation?"
       </p>
-
-      <h4 style="margin-top: 4em">Folding@home (Stanford, US)</h4>
-      <h4>Rosetta@home (Uni Washington, US)</h4>
+      <p>
+        Levinthal's paradox
+      </p>
     </div>
+
+    <h1 class="fragment">Foldit</h1>
   </div>
   <!--
 
@@ -331,7 +383,12 @@
 
 <section>
   <img src="./media/logos/moonshot.svg" style="margin-top: 6em">
-  </a>
+  <p style="margin-top: 2em; font-size: smaller">
+    Shoot for the moon. Even if you miss, you'll land among the stars.
+  </p>
+  <p style="font-size:smaller">
+    Norman Vincent Peale
+  </p>
 </section>
 
 
@@ -414,7 +471,7 @@
 
 
 <section>
-  <h2>What you can do in practice?</h2>
+  <h2>What can you do in practice?</h2>
   <div class="left3 fragment">
     <h3 style="color: palegreen">Share your work</h3>
     <ul>
@@ -480,6 +537,40 @@
   </h2>
 </section>
 
+
+<section>
+  <h2 style="margin-top: 4em">web:
+    <a href="http://mhko.science/p/contact" target="_blank">mhko.science/p/contact</a></h2>
+  <h2>twitter:
+    <a href="https://twitter.com/MhkoScience" target="_blank">@mhkoscience</a></h2>
+</section>
+
+
+
+<section>
+</section>
+
+
+<section data-background-color="white">
+  <div class="left2" style="color: black">
+    <p>
+      A Python bug of a closed-source code for NMR analysis.
+    </p>
+    <p>
+      OS-dependent sorting of files lead to wrong Boltzmann weights
+      in their algorithm.
+    </p>
+    <p>
+      <a href="http://doi.org/10.1038/nprot.2014.042" target="_blank">Willoughby et al., Nat. Protocols 2014</a>
+    </p>
+    <p>
+      <a href="http://doi.org/10.1021/acs.orglett.9b03216" target="_blank">Neupane et al., Org. Lett. 2019</a>
+    </p>
+  </div>
+  <div class="right2">
+    <img src="./media/python-bug.png">
+  </div>
+</section>
 
 <!--===========  here end   the slides ============-->
             </div>
